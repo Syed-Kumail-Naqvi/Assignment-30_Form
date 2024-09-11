@@ -1,0 +1,75 @@
+
+body {
+    background-color: rgb(133,208,239);
+}
+.heading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-align: center;
+}
+.form {
+    border-radius: 15px;
+    height: auto;
+    padding-top: 10px;
+    background-color: black;
+}
+hr {
+    margin-top: 18px;
+}
+.content {
+    text-align: center;
+    font-size: medium;
+    color: rgb(133,208,239);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.result {
+    font-size: x-large;
+    font-weight: bold;
+    padding-left: 30px;
+    color: rgb(133,208,239);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.output {
+    font-size: medium;
+    padding-left: 30px;
+    color: rgb(133,208,239);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input {
+    border-color: white;
+    width: 450px;
+    background-color: black;
+    color: white;
+}
+.button {
+    height: 40px;
+    margin-top: 30px;
+    width: 200px;
+    margin-left: 30px;
+    color: white;
+    background-color: rgb(40,167,69);
+    border: none;
+} 
+
+.results {
+    color: white;
+    margin-left: 30px;
+}
+.end {
+    color: white;
+}
+@media (max-width: 1000px) and (min-width: 100px) {
+    .form {
+        width: 100%;
+    }
+    input {
+        width: auto;
+    }
+    .button {
+        margin-left: 0%;
+    }
+    .result {
+        text-align: center;
+        padding: 0%;
+    }   
+}

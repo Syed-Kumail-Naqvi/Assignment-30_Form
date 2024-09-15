@@ -9,12 +9,12 @@ var submit = document. getElementById("submit");
 
 function submitValue (){
 
-    output.innerHTML =  fullName.value;
-    output2.innerHTML = fatherName.value; 
-    output3.innerHTML = rollNumber.value;
-    output4.innerHTML = email.value;
-    output5.innerHTML = phoneNo.value;
-    output6.innerHTML = doBirth.value;   
+    output.innerHTML = ["Full-Name: "] + fullName.value;
+    output2.innerHTML = ["Father's-Name: "] + fatherName.value; 
+    output3.innerHTML = ["Roll-Number: "] + rollNumber.value;
+    output4.innerHTML = ["Email: "] + email.value;
+    output5.innerHTML = ["Phone-No: "] + phoneNo.value;
+    output6.innerHTML = ["Date-of-Birth: "] + doBirth.value;   
 }
 
 submit.addEventListener('click', submitValue);
